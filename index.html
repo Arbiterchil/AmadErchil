@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Erchil B. Amad</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+           Erchil B. Amad</a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active" >Home</a></li>
+                <li><a href="skills.html" >Skills</a></li>
+                <li><a href="resume.html" >Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+</header>
+
+<div class="content">
+        <section class="hero">
+            <img src="images/img.png" alt="" class="fade-in">
+            <div class="hero-content">
+                <h1 class="fad1">Passionate<br>Programmer</h1>
+                <p class="fad2">Im a passionate in comes to programming and i also enjoying learning new things
+                    in new languages that i just only encounter.
+                </p>
+                <a href="#" class="action-btn">Recruit Me.</a>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+<script
+src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.menu-toggle').click(function(){
+            $('.menu-toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+        });
+    });
+</script>
+</body>
+
+</html>

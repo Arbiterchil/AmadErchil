@@ -1,0 +1,524 @@
+.wew{
+    text-align: center;
+}
+.concats{
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #07111b;
+    display: inline-block;
+    width: 200px;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+.contents{
+    /* box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #07111b; */
+    text-align: center;
+}
+.square1{
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 300px;
+    height: auto;
+    background: #07111b;
+    margin-bottom: 10px;
+    /* box-sizing: border-box;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s; */
+  }
+/* img{
+    width: 100px;
+    height: auto;
+    float: left;
+} */
+.sizess{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 100px;
+    height: auto;
+    float: left;
+}
+.flow{
+    display: inline-flex;
+}
+h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 2em;
+    color: white;
+    float: right;
+    margin-right: 25px;
+}
+h2{
+    display: inline-flex;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+.pepe{
+    font-family: 'Poppins',sans-serif;
+    font-size: 21px;
+    color: white;
+    text-align: left;
+    float: left;
+    margin-right: 189px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.percent {
+    /* margin: 60px 60px 60px 60px; */
+    width: 10px;
+    margin-top: 110px;
+    margin-left: 10px;
+    height: 10px;
+    background: whitesmoke;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    border-radius:50px;
+    margin-bottom: 10px;
+  }
+  
+  .percent:hover {
+    width: 250px;
+  }
+  .percents {
+    /* margin: 60px 60px 60px 60px; */
+    width: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 10px;
+    background: whitesmoke;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    border-radius:50px;
+    margin-bottom: 10px;
+  }
+  
+  .percents:hover {
+    width: 70px;
+  }
+  .percents1 {
+    /* margin: 60px 60px 60px 60px; */
+    width: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 10px;
+    background: whitesmoke;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    border-radius:50px;
+    margin-bottom: 10px;
+  }
+  
+  .percents1:hover {
+    width: 120px;
+  }
+/* .square1:hover {
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  } */
+/* img{
+    width: 200px;
+    height: 200px;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+}
+img:hover{
+    float: left;
+    width: 100px;
+    height: 100px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+} */
+/* .col1{
+    display: inline-block;
+     box-sizing: border-box;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    background:transparent;
+    background: #07111b;
+    color: white;
+    box-sizing: border-box;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+}
+.col1:hover {
+    width:400px;
+    height:400px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  } */
+
+  .bar
+  {
+      margin-left: 10px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      background: #353b48;
+      display: block;
+      height: 10px;
+      width: 270px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      margin-bottom: 10px;
+      /* box-shadow: 0 0 10px whitesmoke; */
+  }
+  .bar span{
+      height: 10px;
+      float: left;
+      background: whitesmoke;
+  }
+  .code1
+  {
+      width: 100%;
+      animation: code1 2s;
+  }
+  .know1
+  {
+      width: 60%;
+      animation: know1 2s;
+  }
+  .Exp1
+  {
+      width: 20%;
+      animation: Exp1 2s;
+  }
+  .code2
+  {
+      width: 90%;
+      animation: code2 2s;
+  }
+  .know2
+  {
+      width: 90%;
+      animation: know2 2s;
+  }
+  .Exp2
+  {
+      width: 90%;
+      animation: Exp2 2s;
+  }
+  .code3
+  {
+      width: 90%;
+      animation: code3 2s;
+  }
+  .know3
+  {
+      width: 80%;
+      animation: know3 2s;
+  }
+  .Exp3
+  {
+      width: 80%;
+      animation: Exp3 2s;
+  }
+
+  .code4
+  {
+      width: 70%;
+      animation: code4 2s;
+  }
+  .know4
+  {
+      width: 60%;
+      animation: know4 2s;
+  }
+  .Exp4
+  {
+      width: 50%;
+      animation: Exp4 2s;
+  }
+
+  .code5
+  {
+      width: 70%;
+      animation: code5 2s;
+  }
+  .know5
+  {
+      width: 70%;
+      animation: know5 2s;
+  }
+  .Exp5
+  {
+      width: 50%;
+      animation: Exp5 2s;
+  }
+
+  .code6
+  {
+      width: 80%;
+      animation: code6 2s;
+  }
+  .know6
+  {
+      width: 90%;
+      animation: know6 2s;
+  }
+  .Exp6
+  {
+      width: 90%;
+      animation: Exp6 2s;
+  }
+
+  .code7
+  {
+      width: 70%;
+      animation: code7 2s;
+  }
+  .know7
+  {
+      width: 70%;
+      animation: know7 2s;
+  }
+  .Exp7
+  {
+      width: 70%;
+      animation: Exp7 2s;
+    }  
+
+
+
+
+    .code8
+    {
+        width: 60%;
+        animation: code8 2s;
+    }
+    .know8
+    {
+        width: 60%;
+        animation: know8 2s;
+    }
+    .Exp8
+    {
+        width: 60%;
+        animation: Exp8 2s;
+      }  
+      @keyframes code7{
+          0%{
+              width: 0%;
+          }
+          100%{
+              width: 60%;
+          }
+      }
+      @keyframes know7{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 60%;
+        }
+      }
+      @keyframes Exp8{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 60%;
+        }
+      }
+
+
+
+
+
+
+
+
+    @keyframes code7{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 70%;
+        }
+    }
+    @keyframes know7{
+      0%{
+          width: 0%;
+      }
+      100%{
+          width: 70%;
+      }
+    }
+    @keyframes Exp7{
+      0%{
+          width: 0%;
+      }
+      100%{
+          width: 70%;
+      }
+    }
+
+
+
+
+
+
+  @keyframes code6{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes know6{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+@keyframes Exp6{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+
+
+
+  @keyframes code5{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes know5{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 70%;
+  }
+}
+@keyframes Exp5{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 50%;
+  }
+}
+
+
+
+  @keyframes code4{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes know4{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 60%;
+  }
+}
+@keyframes Exp4{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 50%;
+  }
+}
+
+
+  @keyframes code1{
+      0%{
+          width: 0%;
+      }
+      100%{
+          width: 100%;
+      }
+  }
+  @keyframes know1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes Exp1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
+@keyframes code2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes know2{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+@keyframes Exp2{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+
+@keyframes code3{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes know3{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 80%;
+  }
+}
+@keyframes Exp3{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 80%;
+  }
+}

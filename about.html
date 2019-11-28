@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Erchil B. Amad / Projects </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/about.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+        rel="stylesheet">
+</body>
+
+<header>
+        <a href="#" class="logo">
+           Erchil B. Amad</a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="skills.html" >Skills</a></li>
+                    <li><a href="resume.html" >Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html"  class="active" >About Me</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+</header>
+<div class="cents">
+<div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="siu.php" method="post">
+                    <h1>My Hobbies</h1>
+                    <span>All My Hobbies is: </span>
+
+                    <p class="hehe">Reading Manga</p>
+                    <p class="hehe">Reading Manhwa</p>
+                    <p class="hehe">Playing Online Games</p>
+                    <p class="hehe">Honing Skills Web/App</p>
+                    <p class="hehe">Always Drink Coffe</p>
+                    <!-- <input type="text" name="user" placeholder="Name" id="user" required/>
+                    <input type="text" name="email" placeholder="Email" id="email" required/>
+                    
+                    <input type="password" name="password" placeholder="Password" id="password" required/>
+                    <input type="password" name="conpass" placeholder="Confirm Password" id="conpass" required/>
+                    <button type="submit" name="create" id="register"
+                    >Sign Up</button> -->
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+                <form action="login.php" method="POST">
+                        <h1>About Me</h1>
+                        <span>(PERSONAL ME)</span>
+                        <a href="#" class="foru">Im a person whom strive to get what he want in order to satisfy for own self that i only achieved and get
+                            it and grab for myself im also i helper person when a friend in need i dont discard them cause their my friend and my personal aspects is funny,
+                        passionate,have pride ,integrity and honestly at least little.</a>
+                        <!-- <button type="submit" >Sign In</button> -->
+                </form>
+            </div>
+            <div class="overlay-container" >
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>About Me!</h1>
+                        <p>
+                           Wanna read it again on about myself? Clcik button below again.
+                        </p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                            <h1>My Hobbies!</h1>
+                            <p>
+                               hmmmm...Wanna Read It? click button below
+                            </p>
+                            <button class="ghost" id="signUp">Sign Up</button>
+                        </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+
+    <script src="js/main.js"></script>
+
+
+
+
+<script
+src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.menu-toggle').click(function(){
+            $('.menu-toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+        });
+    });
+</script>
+</html>
